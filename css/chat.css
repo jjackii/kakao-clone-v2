@@ -4,7 +4,7 @@
   top: 0px;
   width: 100%;
   padding: 5px 0px;
-  background-color: white;
+  background-color: #111112;
   box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
     0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   /* box-shadow: horizental vertical blur color, ~~(:top-shadow);
@@ -37,7 +37,9 @@
   align-items: center;
   width: 100%;
 }
-
+.message__author {
+  color: #383839;
+}
 .chat__icon-left {
   position: absolute;
   left: 10px;
@@ -77,6 +79,7 @@
   font-size: 14px;
   transition: width 0.5s ease-in-out, box-shadow 0.5s ease-in-out,
     border-radius 0.5s ease-in-out, transform 0.5s ease-in-out;
+  background-color: #383839;
 }
 
 .chat__write:focus {
@@ -118,6 +121,7 @@
 
 .chat__messages .chat__timestamp {
   background-color: white;
+  color: #383839;
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 10px;
@@ -169,7 +173,7 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   padding: 10px 20px;
   border-radius: 20px;
-  color: white;
+  color: #383839;
   font-weight: 600;
 }
 
